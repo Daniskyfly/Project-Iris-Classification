@@ -13,7 +13,7 @@ print(file_iris.head(4))
 print(file_iris.describe())
 
 #list of existing columns
-print(list(file_iris))
+print(file_iris.columns)
 
 #existing plant species#
 print(file_iris.species.unique())
